@@ -159,7 +159,7 @@
 		"name": "Forest",
 		"desc": "This is a dimly lit forest, with large trees all around.  One\nparticularly large tree with some low branches stands here.",
 		"exits": [{
-			"exit": "UP",
+			"exit": "DOWN",
 			"target": "TREE"
 		}, {
 			"exit": "NORTH",
@@ -529,7 +529,7 @@
 	},
 	"MGRAT": {
 		"name": "Grating Room",
-		"desc": "",
+		"desc": "If you stay here much longer, you'll be eaten by a Grue.",
 		"exits": [{
 			"exit": "SW",
 			"target": "MAZ11"
@@ -887,6 +887,9 @@
 		}, {
 			"exit": "EAST",
 			"target": "CAVE2"
+		}, {
+			"exit": "NORTH",
+			"target": "MIRR1"
 		}],
 		"items": []
 	},
@@ -1117,7 +1120,7 @@
 	},
 	"BATS": {
 		"name": "Bat Room",
-		"desc": "",
+		"desc": "This is a cave full of bats. They are currently sleeping.",
 		"exits": [{
 			"exit": "EAST",
 			"target": "SQUEE"
@@ -1245,7 +1248,10 @@
 			"exit": "SOUTH",
 			"target": "MINE6"
 		}],
-		"items": []
+		"items": [{
+			"item": "SIGN",
+			"desc": "A sign is here that points down."
+		}]
 	},
 	"DOME": {
 		"name": "Dome Room",
