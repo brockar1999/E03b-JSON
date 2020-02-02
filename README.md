@@ -1,4 +1,4 @@
-# E03b-JSON
+# E03b-JSON ALLIE BROCK SP2020
 This exercise will give you the opportunity to edit an existing JSON file (in the game-description format we are using for MSCH-C220). Fork and Clone this repository and then make the following edits to zork.json:
 
  + Change the exit in FORE3 from UP to DOWN

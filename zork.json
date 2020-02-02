@@ -789,7 +789,11 @@
 			"exit": "EAST",
 			"target": "CRAW1"
 		}],
-		"items": []
+		"items": [{
+			"item": "MUMMY",
+			"desc": "An ancient Egyptian mummy is sprawled on the floor.",
+			"take": "You stuff the mummy in to your sack."
+		}]
 	},
 	"ICY": {
 		"name": "Glacier Room",
@@ -1075,7 +1079,7 @@
 	},
 	"DEAD7": {
 		"name": "Dead End",
-		"desc": "Dead End",
+		"desc": "You have reached a dead end.",
 		"exits": [{
 			"exit": "SOUTH",
 			"target": "BLADD"
@@ -1687,7 +1691,7 @@
 	},
 	"FCHMP": {
 		"name": "Moby lossage",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
@@ -2069,6 +2073,9 @@
 		}, {
 			"exit": "SOUTH",
 			"target": "GALLE"
+		}, {
+			"exit": "ROB",
+			"target": "BKVAU"
 		}],
 		"items": []
 	},
@@ -2184,7 +2191,7 @@
 		"items": []
 	},
 	"CP": {
-		"name": "Room in a Puzzle",
+		"name": "Just a room (not at all suspicious)",
 		"desc": "",
 		"exits": [{
 			"exit": "NORTH",
@@ -2440,7 +2447,7 @@
 	},
 	"MRDE": {
 		"name": "Narrow Room",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
@@ -2452,13 +2459,13 @@
 	},
 	"MRGE": {
 		"name": "Narrow Room",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
 	"MRGW": {
 		"name": "Narrow Room",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
@@ -2797,7 +2804,7 @@
 	},
 	"PCELL": {
 		"name": "Prison Cell",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
